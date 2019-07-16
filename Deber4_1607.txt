@@ -1,0 +1,160 @@
+create
+(`0` :Node {Nombre:"Andres",Apellido:"Alquinga",Edad:"24",Carrera:"sistemas"}) ,
+  (`1` :Node {Nombre:"Aaron",Apellido:"Cruz",Edad:"23",Carrera:"sistemas"}) ,
+  (`2` :Node {Nombre:"Mashenka",Apellido:"Cahuenas",Edad:"23",Carrera:"finanzas"}) ,
+  (`3` :Node {Nombre:"Carla",Apellido:"Herrera",Edad:"23",Carrera:"finanzas"}) ,
+  (`4` :Node {Nombre:"Bryan",Apellido:"Corrales",Edad:"23",Carrera:"sistemas"}) ,
+  (`5` :Musica {tipo:"rap"}) ,
+  (`6` :Musica {Tipo:"Rock"}) ,
+  (`7` :Musica {tipo:"salsa"}) ,
+  (`8` :Musica {tipo:"recuerdo"}) ,
+  (`9` :Musica {tipo:"pop"}) ,
+  (`10` :series {nombre:"breaking bad"}) ,
+  (`11` :series {nombre:"game of trhones"}) ,
+  (`12` :serie {Nombre:"siete pecados capitales"}) ,
+  (`13` :serie {Nombre:"chernobil"}) ,
+  (`14` :serie {Nombre:"caballeros del zodiaco"}) ,
+  (`15` :lugar {Nombre:"Ambato"}) ,
+  (`16` :lugar {Nombre:"esmeraldas"}) ,
+  (`17` :lugar {Nombre:"cotopaxi"}) ,
+  (`18` :lugar {Nombre:"otavalo"}) ,
+  (`19` :lugar {Nombre:"riobamba"}) ,
+  (`20` :libro {Nombre:"padre rico padre probre"}) ,
+  (`21` :libro {Nombre:"principito"}) ,
+  (`22` :libro {Nombre:"cementerio de animales"}) ,
+  (`23` :libro {Nombre:"Hush Hush"}) ,
+  (`24` :libro {Nombre:"mis días sin ti"}) ,
+  (`26` :comida {plato:"guatita"}) ,
+  (`27` :comida {plato:"sushi"}) ,
+  (`28` :comida {plato:"pizza"}) ,
+  (`29` :comida {plato:"hamburguesa"}) ,
+  (`30` :comida {plato:"tortillas"}) ,
+  (`0`)-[:`RELATED_TO` ]->(`1`),
+  (`1`)-[:`RELATED_TO` ]->(`2`),
+  (`0`)-[:`RELATED_TO` ]->(`2`),
+  (`2`)-[:`RELATED_TO` ]->(`3`),
+  (`0`)-[:`RELATED_TO` ]->(`4`),
+  (`4`)-[:`RELATED_TO` ]->(`3`),
+  (`4`)-[:`RELATED_TO` ]->(`5`),
+  (`0`)-[:`RELATED_TO` ]->(`5`),
+  (`1`)-[:`RELATED_TO` ]->(`6`),
+  (`2`)-[:`RELATED_TO` ]->(`6`),
+  (`0`)-[:`RELATED_TO` ]->(`6`),
+  (`0`)-[:`RELATED_TO` ]->(`7`),
+  (`2`)-[:`RELATED_TO` ]->(`7`),
+  (`3`)-[:`RELATED_TO` ]->(`7`),
+  (`5`)-[:`RELATED_TO` ]->(`7`),
+  (`2`)-[:`RELATED_TO` ]->(`8`),
+  (`0`)-[:`RELATED_TO` ]->(`8`),
+  (`3`)-[:`RELATED_TO` ]->(`9`),
+  (`8`)-[:`RELATED_TO` ]->(`9`),
+  (`0`)-[:`RELATED_TO` ]->(`9`),
+  (`1`)-[:`RELATED_TO` ]->(`9`),
+  (`2`)-[:`RELATED_TO` ]->(`5`),
+  (`2`)-[:`RELATED_TO` ]->(`10`),
+  (`6`)-[:`RELATED_TO` ]->(`10`),
+  (`1`)-[:`RELATED_TO` ]->(`11`),
+  (`0`)-[:`RELATED_TO` ]->(`12`),
+  (`4`)-[:`RELATED_TO` ]->(`12`),
+  (`3`)-[:`RELATED_TO` ]->(`12`),
+  (`4`)-[:`RELATED_TO` ]->(`13`),
+  (`3`)-[:`RELATED_TO` ]->(`13`),
+  (`2`)-[:`RELATED_TO` ]->(`13`),
+  (`0`)-[:`RELATED_TO` ]->(`13`),
+  (`4`)-[:`RELATED_TO` ]->(`14`),
+  (`2`)-[:`RELATED_TO` ]->(`14`),
+  (`3`)-[:`RELATED_TO` ]->(`14`),
+  (`0`)-[:`RELATED_TO` ]->(`14`),
+  (`1`)-[:`RELATED_TO` ]->(`14`),
+  (`0`)-[:`RELATED_TO` ]->(`15`),
+  (`4`)-[:`RELATED_TO` ]->(`15`),
+  (`2`)-[:`RELATED_TO` ]->(`15`),
+  (`3`)-[:`RELATED_TO` ]->(`15`),
+  (`2`)-[:`RELATED_TO` ]->(`16`),
+  (`3`)-[:`RELATED_TO` ]->(`16`),
+  (`1`)-[:`RELATED_TO` ]->(`16`),
+  (`1`)-[:`RELATED_TO` ]->(`17`),
+  (`4`)-[:`RELATED_TO` ]->(`17`),
+  (`4`)-[:`RELATED_TO` ]->(`18`),
+  (`3`)-[:`RELATED_TO` ]->(`18`),
+  (`3`)-[:`RELATED_TO` ]->(`19`),
+  (`0`)-[:`RELATED_TO` ]->(`19`),
+  (`2`)-[:`RELATED_TO` ]->(`20`),
+  (`0`)-[:`RELATED_TO` ]->(`20`),
+  (`1`)-[:`RELATED_TO` ]->(`20`),
+  (`0`)-[:`RELATED_TO` ]->(`21`),
+  (`4`)-[:`RELATED_TO` ]->(`21`),
+  (`3`)-[:`RELATED_TO` ]->(`21`),
+  (`1`)-[:`RELATED_TO` ]->(`21`),
+  (`2`)-[:`RELATED_TO` ]->(`21`),
+  (`4`)-[:`RELATED_TO` ]->(`22`),
+  (`3`)-[:`RELATED_TO` ]->(`23`),
+  (`0`)-[:`RELATED_TO` ]->(`24`),
+  (`2`)-[:`RELATED_TO` ]->(`24`),
+  (`0`)-[:`RELATED_TO` ]->(`26`),
+  (`3`)-[:`RELATED_TO` ]->(`26`),
+  (`4`)-[:`RELATED_TO` ]->(`26`),
+  (`2`)-[:`RELATED_TO` ]->(`26`),
+  (`1`)-[:`RELATED_TO` ]->(`27`),
+  (`2`)-[:`RELATED_TO` ]->(`27`),
+  (`3`)-[:`RELATED_TO` ]->(`27`),
+  (`4`)-[:`RELATED_TO` ]->(`28`),
+  (`0`)-[:`RELATED_TO` ]->(`28`),
+  (`1`)-[:`RELATED_TO` ]->(`28`),
+  (`2`)-[:`RELATED_TO` ]->(`28`),
+  (`3`)-[:`RELATED_TO` ]->(`28`),
+  (`3`)-[:`RELATED_TO` ]->(`29`),
+  (`0`)-[:`RELATED_TO` ]->(`29`),
+  (`2`)-[:`RELATED_TO` ]->(`29`),
+  (`1`)-[:`RELATED_TO` ]->(`29`),
+  (`0`)-[:`RELATED_TO` ]->(`30`),
+  (`2`)-[:`RELATED_TO` ]->(`30`),
+  (`1`)-[:`RELATED_TO` ]->(`30`),
+  (`4`)-[:`RELATED_TO` ]->(`30`),
+  (`3`)-[:`RELATED_TO` ]->(`30`)
+
+
+consultas.
+
+consulta 1
+lugares con la inicial "a"
+
+MATCH (n:lugar)
+WHERE n.Nombre STARTS WITH "A"
+RETURN n
+
+consulta 2
+devuelve personas que han comido pizza
+match (n:comida)-[r:RELATED_TO]->(p.Nombre)where n.plato = "pizza" return r
+
+consulta 3
+devuelve el numero de personas que conce cada uno
+match (a:amigo)-[:conoce]->(a2:amigo) return a.Nombre as nombre,count(a2)
+
+consulta 4
+devuelve las personas que se conocen entre si
+match (a:amigo)-[:conoce]->(a2:amigo) return a
+
+consulta 5
+devuelve los lugares donde cada persona a visitado
+match (a:amigo)-[:RELATED_TO]->(l:lugar) return l
+
+consulta 6
+devuelve los platos que ha comido esta persona
+match (c:comida)-[:RELATED_TO]->(a:amigo) where a.Apellido = "herrera" return c.plato
+
+consulta 7
+devuelve el tipo de musica que escuha la persona
+match (a:amigo)-[:RELATED_TO]->(m:Musica) where a.Apellido = "herrera" return m
+
+consulta 8
+devuelve la relacion que existe entre amigos y la musica que tienen en común
+match (a:amigo)-[:RELATED_TO]->(m:Musica)  return a,m
+
+consulta 9
+devuelve las series y la relacion que tiene cada uno
+match (a:amigo)-[:RELATED_TO]->(s:serie)  return a,s
+
+consulta 10
+devuelve la persona que a comido pizza y ha visto la serie hush hush
+match (a:amigo)-[:RELATED_TO]->(s:serie)-[:RELATED_TO]->(c:comida) where c.plato = "pizza" and s.nombre="Hush hush" return a.Nombre
